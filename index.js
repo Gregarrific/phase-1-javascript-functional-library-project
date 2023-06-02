@@ -79,3 +79,17 @@ function myLast(anArray, n = 0) {
         return lastValues;
     }
 }
+function myKeys(anObject) {
+    let objArray = [];
+    for (let item in anObject) {
+        objArray.push(item);
+    }
+    return objArray;
+}
+function myValues(anObject) {
+    let objArray = [];
+    for (let item in anObject) {
+        objArray.push(anObject[item]);
+    }
+    return objArray;
+}
